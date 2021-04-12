@@ -9,7 +9,13 @@ const useResource = (baseUrl) => {
 
     const getAll = async () => {
         const response = await axios.get(baseUrl);
+        return response.data;
     };
+
+    const getByID = async = (id) => {
+        const response = await axios.get(`${baseUrl}/${id}`)
+        return response.data
+    }
 
     const create = async (object) => {
         const config = { headers: { Authorization: token } };
@@ -30,6 +36,7 @@ const useResource = (baseUrl) => {
 
     return {
         getAll,
+        getByID,
         create,
         update,
         remove,
