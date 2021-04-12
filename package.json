@@ -1,0 +1,20 @@
+{
+    "name": "react-custom-hooks",
+    "version": "1.0.0",
+    "description": "Custom React hooks either found or created by me.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "react",
+        "axios",
+        "hook",
+        "state"
+    ],
+    "author": "Elias Peteri",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "react": "^17.0.2"
+    }
+}
